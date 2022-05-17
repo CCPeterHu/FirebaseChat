@@ -30,8 +30,8 @@
                             <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gQ-d8-GYg">
                                 <rect key="frame" x="60" y="10" width="288" height="40"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sadifhuasdfh iasdhufi audshfi uashdfio uahsdiof uhasdiofu hasdiouhf asdihf asd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" id="Q2R-ap-eSd">
-                                        <rect key="frame" x="8" y="0.0" width="252" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sadifhuasdfh iasdhufi audshfi uashdfio uahsdiof uhasdiofu hasdiouhf asdihf asd" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" id="Q2R-ap-eSd">
+                                        <rect key="frame" x="18" y="0.0" width="252" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" name="BrandLightPurple"/>
@@ -63,16 +63,10 @@
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="Mpv-JP-zdU" secondAttribute="trailing" constant="10" id="6ft-P0-oYf"/>
-                    <constraint firstItem="Mpv-JP-zdU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="FG7-T5-p6q"/>
-                    <constraint firstAttribute="bottom" secondItem="Mpv-JP-zdU" secondAttribute="bottom" constant="10" id="HIE-df-wlR"/>
-                    <constraint firstItem="Mpv-JP-zdU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="N0H-hv-Vvq"/>
-                    <constraint firstAttribute="bottom" secondItem="Mpv-JP-zdU" secondAttribute="bottom" constant="10" id="bFl-wI-f8I"/>
-                    <constraint firstAttribute="bottom" secondItem="Mpv-JP-zdU" secondAttribute="bottom" constant="10" id="fdN-4S-lAh"/>
-                    <constraint firstItem="Mpv-JP-zdU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="iNq-Jl-cgS"/>
-                    <constraint firstItem="Mpv-JP-zdU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="j3Y-yo-dFf"/>
-                    <constraint firstItem="Mpv-JP-zdU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="tcd-jL-qe0"/>
-                    <constraint firstAttribute="bottom" secondItem="Mpv-JP-zdU" secondAttribute="bottom" constant="10" id="vbn-1x-je0"/>
+                    <constraint firstAttribute="trailing" secondItem="Mpv-JP-zdU" secondAttribute="trailing" constant="10" id="418-Kp-sva"/>
+                    <constraint firstItem="Mpv-JP-zdU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="4aN-DC-liB"/>
+                    <constraint firstItem="Mpv-JP-zdU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="DkM-4j-9gc"/>
+                    <constraint firstAttribute="bottom" secondItem="Mpv-JP-zdU" secondAttribute="bottom" constant="10" id="i1H-0c-5ma"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
